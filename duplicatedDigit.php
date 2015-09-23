@@ -8,7 +8,7 @@ function chk_zero($num) {
 }
 // check num repeat
 function chk_num_repeat($num) {
-	if (substr($num, 0, 1) == substr($num, 1, 1) or substr($num, 1, 1) == substr($num, 2, 1) or substr($num, 1, 1) == substr($num, 2, 1)) {
+	if (substr($num, 0, 1) == substr($num, 1, 1) or substr($num, 0, 1) == substr($num, 2, 1) or substr($num, 1, 1) == substr($num, 2, 1)) {
 		return True;
 	}
 	return False;
